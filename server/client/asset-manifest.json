@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0eb61c4a.css",
+    "main.js": "/static/js/main.12356cb4.js",
+    "static/js/787.a9698d65.chunk.js": "/static/js/787.a9698d65.chunk.js",
+    "static/media/scooter.svg": "/static/media/scooter.eaf947c1fb295a60b7b61b8f4f7259bf.svg",
+    "static/media/party2.svg": "/static/media/party2.e75cfa941d0f9ac3564f350d9276afd6.svg",
+    "static/media/party3.svg": "/static/media/party3.8cf7dd12758ce93fa8f9826a2ed2e524.svg",
+    "static/media/party1.svg": "/static/media/party1.b13276154881c5416defc4360c58bdbf.svg",
+    "static/media/party4.svg": "/static/media/party4.35548a82bb8c8141d82e88b1c3e5617e.svg",
+    "static/media/firstScooter.svg": "/static/media/firstScooter.e3695a246216c4752df58ea6aed83131.svg",
+    "static/media/secondScooter.svg": "/static/media/secondScooter.dc4958efc29c1cae70481fc5f2b7f45a.svg",
+    "static/media/BerlinType-Bold.otf": "/static/media/BerlinType-Bold.9dab94178b1737b870ba.otf",
+    "static/media/BerlinType-Regular.otf": "/static/media/BerlinType-Regular.1bbba4deb8775ccac9dc.otf",
+    "static/media/framd.otf": "/static/media/framd.953badef5157dd688816.otf",
+    "static/media/Concrete-Regular.otf": "/static/media/Concrete-Regular.fcb1090140aa5427f444.otf",
+    "static/media/logo.svg": "/static/media/logo.a7e8a7fde2a8a8c94e57183a58330244.svg",
+    "static/media/first-screen-background.svg": "/static/media/first-screen-background.15510fa6114b20c437962fe25f3986cc.svg",
+    "index.html": "/index.html",
+    "main.0eb61c4a.css.map": "/static/css/main.0eb61c4a.css.map",
+    "main.12356cb4.js.map": "/static/js/main.12356cb4.js.map",
+    "787.a9698d65.chunk.js.map": "/static/js/787.a9698d65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb61c4a.css",
+    "static/js/main.12356cb4.js"
+  ]
+}

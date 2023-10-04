@@ -30,7 +30,8 @@
 .subscription-content_colomn {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
+    margin: 0px 5px;
 }
 
 .subscription-content a {
