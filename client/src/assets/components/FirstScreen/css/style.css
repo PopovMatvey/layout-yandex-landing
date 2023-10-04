@@ -1,0 +1,119 @@
+/* Стили первого экрана */
+.first-screen {
+    position: relative;
+    width: 100%;
+    height: 900px; 
+}
+
+.first-screen img {
+    width: 100%;
+    height: auto;
+}
+
+.first-screen_info {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    z-index: 1;
+}
+
+.first-screen_info img {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+.first-screen_info h1 {
+    font-size: 72px;
+    text-align: left;
+}
+
+
+.first-screen_info .first-screen_info__text {
+    display: block;
+    font-size: 24px;
+    text-align: left;
+    padding: 20px;
+    line-height: 32px;
+}
+
+.first-screen_info_radio-button {
+    background: #efe5ff;
+    border-radius: 20px;
+}
+
+.first-screen_info__new-price {
+    padding: 0px 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: radial-gradient(#E0B8FF, #B6B9FF);
+    margin: 2px;
+}
+
+.first-screen_info__old-price {
+    text-decoration: line-through;
+    color: #808080;
+    font-size: 16px;
+}
+
+.first-screen_info__button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 20px;
+    margin: 20px 0px;
+}
+
+.first-screen_info a {
+    width: 60%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    background: #FFDE40;
+    border: 1px solid #FFDE40;
+    transition: .5s all;
+}
+
+.first-screen_info a:visited{
+    width: 60%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    background: #FFDE40;
+    border: 1px solid #FFDE40;
+    transition: .5s all;
+} 
+
+.first-screen_info a:hover{
+    border: 1px solid black;
+    background: #fff;
+}
+
+.first-screen_info a:active{
+    transform: scale(1.1);
+}
+
+.first-screen_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.first-screen_img__background {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    z-index: 0;
+}
+
+.first-screen_img__scooter {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 60%;
+    z-index: 1;
+}

@@ -1,0 +1,19 @@
+/* Стили карточки преимуства */
+.benifits-container_colletions__item {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin: 10px;
+}
+
+.benifits-container_colletions__item span {
+    display: block;
+    text-align: left;
+    padding: 10px 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.benifits-container_colletions__item img{
+    width: 80px;
+}

@@ -1,0 +1,11 @@
+/* Стили "Подвала" */
+footer{
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    padding: 100px 200px;
+}
+
+footer span{
+    color: #C5C5C5;
+}
