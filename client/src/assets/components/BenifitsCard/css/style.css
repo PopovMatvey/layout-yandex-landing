@@ -6,6 +6,12 @@
     margin: 10px;
 }
 
+@media screen and (max-width:600px) {
+    .benifits-container_colletions__item {
+        width: 100%;
+    }
+}
+
 .benifits-container_colletions__item span {
     display: block;
     text-align: left;

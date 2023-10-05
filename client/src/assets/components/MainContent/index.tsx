@@ -5,6 +5,10 @@ import { Benifits } from "../Benifits";
 import { Events } from "../Events";
 import { Subscription } from "../Subscription";
 
+/**
+ * Основной контент
+ * @returns компонент "Основной контент"
+ */
 export function MainContent() {
     return (
         <>

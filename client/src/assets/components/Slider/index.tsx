@@ -4,6 +4,10 @@ import { useActiveIndexState } from "./hook/useActiveIndexState";
 import { items } from "./data/arrayItems";
 import { CarouselItem as SliderlItem } from "./SliderlItem";
 
+/**
+ * Слайдер
+ * @returns Компонент "Слайдер"
+ */
 export const Slider = () => {
   const { activeIndex, setActiveIndex } = useActiveIndexState();
 
@@ -15,12 +19,27 @@ export const Slider = () => {
       newIndex = items.length - 1;
     }
 
+    if (newIndex === 0) {
+      document.querySelector('.left')?.classList.add('not-active');
+      document.querySelector('.right')?.classList.remove('not-active');
+    }
+
+    if (newIndex === items.length - 1) {
+      document.querySelector('.left')?.classList.remove('not-active');
+      document.querySelector('.right')?.classList.add('not-active');
+    }
+
+    if ((newIndex !== 0) && (newIndex !== items.length - 1)) {
+      document.querySelector('.left')?.classList.remove('not-active');
+      document.querySelector('.right')?.classList.remove('not-active');
+    }
+
     setActiveIndex(newIndex);
   };
 
   return (
     <>
-      <h1>Слайдер</h1>
+      {/* <h1>Слайдер</h1> */}
       <div className="carousel">
         {/* Содержимое слайдера */}
         <div
@@ -30,7 +49,7 @@ export const Slider = () => {
           }}
         >
           {items.map((item, i) => {
-            return <SliderlItem key={i++} item={item} width={"100%"} />;
+            return <SliderlItem key={i++} item={item} />;
           })}
         </div>
         <div className="carousel-buttons">
@@ -41,33 +60,8 @@ export const Slider = () => {
               updateIndex(activeIndex - 1);
             }}
           >
-            <span className="material-symbols-outlined">{"<--"}</span>
+            <span className="material-symbols-outlined left not-active"></span>
           </button>
-          {/* Буллиты */}
-          <div className="indicators">
-            {items.map((_item, index) => {
-              return (
-                <button
-                  key={index}
-                  className="indicator-buttons"
-                  onClick={() => {
-                    updateIndex(index);
-                  }}
-                >
-                  <span
-                    key={index}
-                    className={`material-symbols-outlined 
-                  ${index === activeIndex
-                        ? "indicator-symbol-active"
-                        : "indicator-symbol"
-                      }`}
-                  >
-                    .
-                  </span>
-                </button>
-              );
-            })}
-          </div>
           {/* Конпка назад */}
           <button
             className="button-arrow"
@@ -75,7 +69,7 @@ export const Slider = () => {
               updateIndex(activeIndex + 1);
             }}
           >
-            <span className="material-symbols-outlined">{"-->"}</span>
+            <span className="material-symbols-outlined right"></span>
           </button>
         </div>
       </div>

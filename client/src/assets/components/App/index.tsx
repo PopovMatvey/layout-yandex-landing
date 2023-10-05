@@ -1,14 +1,13 @@
 import React from 'react';
 import './css/style.css';
 import { Footer } from '../Footer';
-import { useExempleState } from '../../hook/useStateExemple';
 import { MainContent } from '../MainContent';
 
+/**
+ * Приложение
+ * @returns Комопнент "Приложение"
+ */
 function App() {
-  const { exemple } = useExempleState();
-
-  console.log(exemple + "  nothing");
-
   return (
     <>
       <div className="App">

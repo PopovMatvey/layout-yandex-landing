@@ -1,6 +1,10 @@
 import React from "react";
 import "./css/style.css";
 
+/**
+ * Подвал
+ * @returns Компонент "Подвал"
+ */
 export function Footer() {
 
     return (
