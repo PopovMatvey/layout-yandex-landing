@@ -25,15 +25,17 @@ export function Subscription() {
                         <img src={secondScooter} alt="Изображение самоката" />
                     </div>
                     <div className="subscription-content_colomn">
-                        <img src={firstScooter} alt="Изображение самоката" />
-                        <h3>
-                            80  % наших пользователей уже в клубе и экономят на поездках
-                        </h3>
-                        <span>
-                            Присоединяйтесь — опция начнёт действовать в начале сезона–2024.
-                            Об открытии сезона предупредим заранее, чтобы вы были готовы
-                        </span>
-                        <a href="https://go.yandex/ru_ru/lp/rides/scooter">Хочу абонемент</a>
+                        <img src={firstScooter} alt="Изображение самоката" className="colomn-scooter"/>
+                        <div className="subscription-content_colomn-text">
+                            <h3>
+                                80  % наших пользователей уже в клубе и экономят на поездках
+                            </h3>
+                            <span>
+                                Присоединяйтесь — опция начнёт действовать в начале сезона–2024.
+                                Об открытии сезона предупредим заранее, чтобы вы были готовы
+                            </span>
+                            <a href="https://go.yandex/ru_ru/lp/rides/scooter">Хочу абонемент</a>
+                        </div>
                     </div>
                 </div>
             </div>

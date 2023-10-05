@@ -24,7 +24,14 @@
     }
 }
 
-.benifits-container_colletions{
+
+@media screen and (max-width:600px) {
+    .benifits-container h2 {
+        font-size: 32px;
+    }
+}
+
+.benifits-container_colletions {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -33,8 +40,8 @@
 }
 
 @media screen and (max-width:991px) {
-    .benifits-container_colletions{
+    .benifits-container_colletions {
         display: flex;
         justify-content: center;
-    }    
+    }
 }

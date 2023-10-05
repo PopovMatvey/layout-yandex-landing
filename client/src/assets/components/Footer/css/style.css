@@ -1,11 +1,16 @@
 /* Стили "Подвала" */
 footer{
-    position: relative;
     width: 100%;
-    padding: 20px 0px;
-    padding: 100px 200px;
+    padding: 100px;
+}
+
+@media screen and (max-width:991px) {
+    footer{
+        padding: 70px;
+    }    
 }
 
 footer span{
+    width: 80%;
     color: #C5C5C5;
 }
