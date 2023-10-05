@@ -4,6 +4,10 @@ import { useActiveIndexState } from "./hook/useActiveIndexState";
 import { items } from "./data/arrayItems";
 import { CarouselItem as SliderlItem } from "./SliderlItem";
 
+/**
+ * Слайдер
+ * @returns Компонент "Слайдер"
+ */
 export const Slider = () => {
   const { activeIndex, setActiveIndex } = useActiveIndexState();
 
@@ -30,7 +34,7 @@ export const Slider = () => {
           }}
         >
           {items.map((item, i) => {
-            return <SliderlItem key={i++} item={item} width={"100%"} />;
+            return <SliderlItem key={i++} item={item} />;
           })}
         </div>
         <div className="carousel-buttons">

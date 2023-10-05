@@ -80,7 +80,7 @@
 }
 
 .first-screen_info a {
-    width: 60%;
+    width: 90%;
     padding: 15px 40px;
     border-radius: 30px;
     font-weight: 700;
@@ -90,7 +90,7 @@
 }
 
 .first-screen_info a:visited {
-    width: 60%;
+    width: 90%;
     padding: 15px 40px;
     border-radius: 30px;
     font-weight: 700;
@@ -113,12 +113,13 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        height: 40vh;
+        margin-top: 60%;
     }
 
     .first-screen_info a{
         position: fixed;
-        width: 300px;
+        width: 50%;
+        padding: 20px;
     }
 }
 

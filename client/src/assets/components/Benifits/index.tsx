@@ -2,6 +2,10 @@ import React from "react";
 import './css/style.css';
 import { BenifitsCard } from "../BenifitsCard";
 
+/**
+ * Преимущество
+ * @returns Компонент "Преимущество"
+ */
 export function Benifits() {
     const arrayBenifits = [
         {
@@ -20,7 +24,7 @@ export function Benifits() {
             srcImage: "./images/Benifits/batary.svg",
             textBenifit: "Если самокат недостаточно заряжен или с ним неудобно переходить дорогу, замените по пути на другой — это бесплатно",
         },
-    ]
+    ];
 
     return (
         <>
