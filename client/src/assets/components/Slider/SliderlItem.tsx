@@ -10,7 +10,6 @@ export const CarouselItem = ({ item }: any) => {
   return (
     <div className="carousel-item">
       <img className="carousel-img" src={item.icon} alt="Изображение слайдера" />
-      <div className="carousel-item-text">{item.description}</div>
     </div>
   );
 };
